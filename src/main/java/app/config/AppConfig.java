@@ -11,15 +11,15 @@ public class AppConfig {
 
     @Bean(name = "dog")
     public Animal getDog() {
-        Animal animal = new Dog("Wow-wow");
-        return animal;
+        Animal animal1 = new Dog("Wow-wow");
+        return animal1;
         //this is the configuration of the Bean "dog" we created
     }
 
     @Bean(name = "cat")
     public Animal getCat() {
-        Animal animal = new Cat("Meow-meow");
-        return animal;
+        Animal animal2 = new Cat("Meow-meow");
+        return animal2;
     }
 
     @Bean(name = "time")
