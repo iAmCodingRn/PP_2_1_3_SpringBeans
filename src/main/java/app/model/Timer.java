@@ -1,6 +1,8 @@
 package app.model;
-import java.time.LocalDateTime;
+import org.springframework.stereotype.Component;
 
+
+@Component
 public class Timer {
 
     private Long nanoTime = System.nanoTime();
